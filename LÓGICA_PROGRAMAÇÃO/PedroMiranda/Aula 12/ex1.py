@@ -21,7 +21,7 @@ def mostrar_mensagem():
     except ValueError:
         print("Digite valores corretos")
     
-    if resultado > 50:
+    if resultado > 200:
         messagebox.showwarning("Aviso", "Por favor, digite números menores")
     else: 
         messagebox.showinfo("Número válido!")
